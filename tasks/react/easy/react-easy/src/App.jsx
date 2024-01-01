@@ -3,8 +3,12 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="center">
-      {/* TODO: Implement the card component */}
+    <div class="card center" style="width: 18rem;">
+      <img class="card-img-top" src="https://loremflickr.com/320/240" alt="Card image cap"/>
+      <div class="card-body">
+        <h1 class="card-title">React/Vite - Easy</h1>
+        <p class="card-text">Card Description.</p>
+      </div>
     </div>
   );
 }
